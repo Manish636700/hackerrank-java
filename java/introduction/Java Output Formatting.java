@@ -26,12 +26,23 @@ Explanation
 
 Each String is left-justified with trailing whitespace through the first  characters. The leading digit of the integer is the  character, and each integer that was less than  digits now has leading zeroes.
 */
+
 import java.util.Scanner;
-public class ABC{
-  public static void main(String args[]){
-  Scanner sc = new Scanner(System.in);
-  String s1 = sc.nextLine();
-  int a = sc.nextInt();
-  System.ut.println("%-15s%03d\n",s1,a);
-  }
+
+public class Solution {
+
+    public static void main(String[] args) {
+            Scanner sc=new Scanner(System.in);
+            System.out.println("================================");
+            //System.out.println("java");
+            for(int i=0; i<3; i++){
+            String a = sc.next();  
+            int java = sc.nextInt();
+              System.out.printf("%-15s%03d\n",a,java);
+            System.out.println("================================");
+
+    }
 }
+
+
+
